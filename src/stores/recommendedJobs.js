@@ -7,7 +7,7 @@ export const useRecommendedJobs = defineStore({
       jobs: [
         {
           imgSrc: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg",
-          title: "AMS Performance",
+          title: "AMS Performance hdjfhdfdhjf jfdjfhdhd ",
           companyName: 'The linkedIdn Inc.'
         },
         {

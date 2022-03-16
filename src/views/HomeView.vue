@@ -3,12 +3,12 @@
     <button type="button" class="border border-indigo rounded p-1 mb-2 bg-white text-indigo text-sm" @click="addJob">Add job</button>
     <ul
         role="list"
-        class="grid auto-rows-auto grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        class="grid auto-rows-auto grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 content-center"
     >
       <li v-for="(job, idx) in jobsStore.recommendedJobs" :key="job.title + idx" class="col-span-1 bg-white border border-gray-1 rounded-md p-6 max-w-246 max-h-264 min-h-264"
       >
-        <div class="grid grid-rows-2">
-          <div class="space-y-5">
+        <div>
+          <div class="space-y-5 w-full h-36">
             <div class="w-full flex justify-between space-x-6">
               <img
                   class="w-10 h-10 bg-gray-300 rounded flex-shrink-0"
@@ -30,7 +30,7 @@
 
           </div>
 
-          <div class="self-end space-y-5">
+          <div class="space-y-5 w-full">
             <div class="flex space-x-1">
               <div class="flex justify-center basis-1/7">
                 <img src="/svg/fit.svg" class="" alt="">
@@ -51,8 +51,6 @@
               </div>
             </div>
           </div>
-
-
 
         </div>
 
