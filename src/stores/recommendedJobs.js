@@ -6,22 +6,22 @@ export const useRecommendedJobs = defineStore({
     return {
       jobs: [
         {
-          imgSrc: "public/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
-          title: "Fullstack developer",
+          imgSrc: "/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
+          title: "AMS Performance Marketing",
           companyName: 'The linkedIdn Inc.'
         },
         {
-          imgSrc: "public/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
+          imgSrc: "/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
           title: "Frontend developer",
           companyName: 'The facebook Inc.'
         },
         {
-          imgSrc: "public/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
+          imgSrc: "/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
           title: "Backend developer",
           companyName: 'The apple Inc.'
         },
         {
-          imgSrc: "public/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
+          imgSrc: "/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
           title: "Backend developer",
           companyName: 'The apple Inc.'
         },
@@ -36,7 +36,7 @@ export const useRecommendedJobs = defineStore({
   actions: {
     addJob() {
       this.recommendedJobs.push({
-        imgSrc: "public/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
+        imgSrc: "/svg/linkedin-logo-icon-image-vector-37037034 1.svg",
         title: "Devops",
         companyName: 'The google Inc.'
       },)

@@ -17,7 +17,7 @@
               />
 
               <a href="#">
-                <img src="public/svg/add.svg" />
+                <img src="/svg/add.svg" />
               </a>
 
             </div>
