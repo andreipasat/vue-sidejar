@@ -7,7 +7,7 @@
     >
       <li v-for="(job, idx) in jobsStore.recommendedJobs" :key="job.title + idx" class="col-span-1 bg-white border border-gray-1 rounded-md p-6 max-w-246 max-h-264 min-h-264"
       >
-        <div class="grid grid-rows-2 h-full">
+        <div class="grid h-full">
           <div class="space-y-5">
             <div class="w-full flex justify-between space-x-6">
               <img
@@ -38,7 +38,7 @@
               <div class="basis-10/12"><span class="text-green font-sans text-xs">Great fit</span></div>
             </div>
 
-            <div class="w-full flex justify-between space-x-6">
+            <div class="w-full flex space-x-6">
               <div class="flex">
                 <a href="#">
                   <span class="font-semibold font-sans text-gray-0 text-sm">Dismiss</span>
