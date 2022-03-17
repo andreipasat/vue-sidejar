@@ -1,11 +1,11 @@
 <template>
-  <div class="container bg-gray-2 py-2 px-2">
-    <button type="button" class="border border-indigo rounded p-1 mb-2 bg-white text-indigo text-sm" @click="addJob">Add job</button>
+  <div class=" bg-gray-2 py-2 px-2 m-auto lg:w-4/5 md:w-2/3">
+    <!-- <button type="button" class="border border-indigo rounded p-1 mb-2 bg-white text-indigo text-sm" @click="addJob">Add job</button> -->
     <ul
         role="list"
-        class="grid auto-rows-auto grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 content-center"
+        class="grid auto-rows-auto grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
-      <li v-for="(job, idx) in jobsStore.recommendedJobs" :key="job.title + idx" class="col-span-1 bg-white border border-gray-1 rounded-md p-6 max-w-246 max-h-264 min-h-264"
+      <li v-for="(job, idx) in jobsStore.recommendedJobs" :key="job.title + idx" class="col-span-1 bg-white border border-gray-1 rounded-md p-6 min-w-246 max-w-246 max-h-264 min-h-264"
       >
         <div>
           <div class="space-y-5 w-full h-36">
