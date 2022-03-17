@@ -17,6 +17,9 @@ module.exports = {
       lg: ['18px', {
         lineHeight: '22px',
       }],
+      'lg-1': ['19px', {
+        lineHeight: '24px',
+      }],
     },
     colors: {
       white: '#FFF',
