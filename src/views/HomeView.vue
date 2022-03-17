@@ -1,6 +1,6 @@
 <template>
   <div class=" bg-gray-2 py-2 px-2 m-auto lg:w-4/5 md:w-2/3">
-    <!-- <button type="button" class="border border-indigo rounded p-1 mb-2 bg-white text-indigo text-sm" @click="addJob">Add job</button> -->
+    <button type="button" class="border border-indigo rounded p-1 mb-2 bg-white text-indigo text-sm" @click="addJob">Add job</button>
     <ul
         role="list"
         class="grid auto-rows-auto grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
