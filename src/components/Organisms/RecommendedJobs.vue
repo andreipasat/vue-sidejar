@@ -38,8 +38,8 @@
               <div class="basis-10/12"><span class="text-green font-sans text-xs">Great fit</span></div>
             </div>
 
-            <div class="w-full flex space-x-6">
-              <div class="flex">
+            <div class="flex justify-between">
+              <div class="">
                 <a href="#">
                   <span class="font-semibold font-sans text-gray-0 text-sm">Dismiss</span>
                 </a>

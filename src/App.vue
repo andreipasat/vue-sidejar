@@ -11,7 +11,7 @@ export default {
 <template>
   <div class="relative min-h-screen flex">
 
-    <div class="bg-white w-72 text-gray-3 text-lg-1">
+    <div class="bg-white w-72">
       <sidebar-vue></sidebar-vue>
     </div>
     

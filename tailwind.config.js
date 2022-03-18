@@ -4,12 +4,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      sans: ['"fonts/TTCommons"', 'sans-serif'],
-    },
     fontSize: {
       xs: ['12px', {
         lineHeight: '16px',
+      }],
+      'xs-no-line-height': ['12px', {
       }],
       sm: ['14px', {
         lineHeight: '22px',
@@ -24,15 +23,21 @@ module.exports = {
     colors: {
       white: '#FFF',
       neutral: '#262B33',
+      'neutral-2': '#1E2532',
       'gray-0': '#C1C9DE',
       'gray-1': '#D9DEEB',
       'gray-2': '#E5E5E5',
       'gray-3': '#828BA2',
+      'gray-4': '#EFF2F9',
       'gray-b': '#F7F9FC',
       green: '#207544',
-      indigo: '#2F8DEB'
+      indigo: '#2F8DEB',
+      'indigo-2': '#1A91F0'
     },
     extend: {
+      fontFamily: {
+        tt_commons: ['"TTCommons"', "sans-serif"],
+      },
       maxWidth: {
         '246': '246px',
       },
@@ -41,6 +46,9 @@ module.exports = {
       },
       maxHeight: {
         '264': '264px',
+      },
+      spacing: {
+        '6px': '6px',
       }
     },
   },

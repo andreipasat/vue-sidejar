@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "TTCommons";
+    src: url("/public/fonts/TTCommons/TTCommons-Regular.ttf");
+}
+@font-face {
+    font-family: "TTCommonsSemiBold";
+    src: url("/public/fonts/TTCommons/TTCommons-DemiBold.ttf");
+}
+
+html {
+    @apply font-tt_commons
+}
