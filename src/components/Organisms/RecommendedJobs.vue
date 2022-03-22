@@ -1,4 +1,12 @@
 <template>
+    <div class="flex justify-between align-middle py-5 font-semibold">
+      <div>
+        <h1 class="text-neutral text-xl">Jobs you may be interested in</h1>
+      </div>
+      <div class="mt-1">
+        <app-button>More jobs</app-button>
+      </div>
+    </div>
     <ul
         role="list"
         class="grid auto-rows-auto grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
@@ -64,6 +72,7 @@
 
 <script>
 import { useRecommendedJobs } from "../../stores/recommendedJobs";
+import AppButton from "../Atoms/AppButton.vue"
 export default {
     setup() {
         const jobsStore = useRecommendedJobs();
@@ -71,5 +80,8 @@ export default {
             jobsStore
         }
     },
+    components:{
+      AppButton
+    }
 }
 </script>

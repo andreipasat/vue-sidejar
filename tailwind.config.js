@@ -13,6 +13,9 @@ module.exports = {
       sm: ['14px', {
         lineHeight: '22px',
       }],
+      'sm-2': ['16px',{
+        lineHeight: '20px',
+      }],
       lg: ['18px', {
         lineHeight: '22px',
       }],
@@ -21,6 +24,9 @@ module.exports = {
       'lg-1': ['19px', {
         lineHeight: '24px',
       }],
+      xl: [ '32px',{
+        lineHeight: '34px'
+      }]
     },
     colors: {
       white: '#FFF',
@@ -34,6 +40,7 @@ module.exports = {
       'gray-b': '#F7F9FC',
       green: '#207544',
       indigo: '#2F8DEB',
+      blue: '#2196F3',
       'indigo-2': '#1A91F0'
     },
     extend: {
