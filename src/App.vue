@@ -6,7 +6,7 @@ import { computed } from "vue";
 export default {
   data() {
     return {
-      toggleSidebar: true
+      toggleSidebar: false
     }
   },
   provide() {
