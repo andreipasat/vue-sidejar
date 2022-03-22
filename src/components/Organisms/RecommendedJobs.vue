@@ -39,13 +39,13 @@
             </div>
 
             <div class="flex justify-between">
-              <div class="">
-                <a href="#">
+              <div>
+                <a href="/">
                   <span class="font-semibold font-sans text-gray-0 text-sm">Dismiss</span>
                 </a>
               </div>
               <div class="basis-1/2 flex justify-end">
-                <a href="#">
+                <a href="/">
                   <span class="text-sm font-semibold font-sans text-indigo">Learn more</span>
                 </a>
               </div>

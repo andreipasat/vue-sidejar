@@ -16,6 +16,8 @@ module.exports = {
       lg: ['18px', {
         lineHeight: '22px',
       }],
+      'lg-no-line-height': ['18px', {
+      }],
       'lg-1': ['19px', {
         lineHeight: '24px',
       }],
@@ -51,6 +53,9 @@ module.exports = {
         '6px': '6px',
       }
     },
+  },
+  variants: {
+    fill: ['hover', 'focus'], // this line does the trick
   },
   plugins: [
   ],

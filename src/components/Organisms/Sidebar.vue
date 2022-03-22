@@ -1,6 +1,6 @@
 <template>
     <div class="p-4 text-gray-3 text-lg-1">
-        <a href="/"><img class="w-28" src="/public/svg/logo.svg" alt="Logo"></a>
+        <a href="#" @click="$emit('toggleSidebar')"><img class="w-28" src="/public/svg/logo.svg" alt="Logo"></a>
         <nav class="mt-10">
             <ul>
                 <li>
@@ -16,10 +16,10 @@
         <nav>
             <ul>
                 <li>
-                    <app-sidebar-link-vue to="/">Assessment</app-sidebar-link-vue>
+                    <app-sidebar-link-vue to="/">Career Pathway</app-sidebar-link-vue>
                 </li>
                 <li>
-                    <app-sidebar-link-vue to="/">Document Prep</app-sidebar-link-vue>
+                    <app-sidebar-link-vue to="/">Training</app-sidebar-link-vue>
                 </li>
                 <li>
                     <app-sidebar-link-vue to="/">Job Targeting</app-sidebar-link-vue>
@@ -57,6 +57,8 @@
 <script>
     import AppSidebarLinkVue from "../Atoms/AppSidebarLink.vue"
    export default {
+       emits: ['toggleSidebar'],
+       inject: ['sidebarToggle'],
        components: {
            AppSidebarLinkVue
        }
