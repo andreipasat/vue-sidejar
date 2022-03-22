@@ -51,9 +51,11 @@ module.exports = {
         '246': '246px',
       },
       minHeight: {
+        '154': '154px',
         '264': '264px',
       },
       maxHeight: {
+        '154': '154px',
         '264': '264px',
       },
       spacing: {
