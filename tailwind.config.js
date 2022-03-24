@@ -41,7 +41,8 @@ module.exports = {
       green: '#207544',
       indigo: '#2F8DEB',
       blue: '#2196F3',
-      'indigo-2': '#1A91F0'
+      'indigo-2': '#1A91F0',
+      red: '#FF0000'
     },
     extend: {
       fontFamily: {
