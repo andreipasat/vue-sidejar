@@ -11,6 +11,11 @@
     src: url("/public/fonts/TTCommons/TTCommons-DemiBold.ttf");
 }
 
+@font-face {
+    font-family: "TTCommonsLight";
+    src: url("/public/fonts/TTCommons/TTCommons-Light.ttf");
+}
+
 html {
     @apply font-tt_commons
 }

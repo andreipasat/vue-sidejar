@@ -47,6 +47,7 @@ module.exports = {
     extend: {
       fontFamily: {
         tt_commons: ['"TTCommons"', "sans-serif"],
+        tt_commons_light: ['"TTCommonsLight"', "sans-serif"],
       },
       maxWidth: {
         '246': '246px',
